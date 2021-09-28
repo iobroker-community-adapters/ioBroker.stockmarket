@@ -6,7 +6,7 @@
     "name": "waoler",
     "email": "jonashabelmann@gmail.com"
   },
-  "homepage": "https://github.com/waoler/ioBroker.stockmarket",
+  "homepage": "https://github.com/iobroker-community-adapters/ioBroker.stockmarket",
   "license": "MIT",
   "keywords": [
     "stock",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/waoler/ioBroker.stockmarket"
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.stockmarket"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^1.0.3"
@@ -50,7 +50,7 @@
     "lint": "eslint"
   },
   "bugs": {
-    "url": "https://github.com/waoler/ioBroker.stockmarket/issues"
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.stockmarket/issues"
   },
   "readmeFilename": "README.md"
 }

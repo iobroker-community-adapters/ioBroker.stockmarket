@@ -3,12 +3,12 @@
 
 [![NPM version](http://img.shields.io/npm/v/iobroker.stockmarket.svg)](https://www.npmjs.com/package/iobroker.stockmarket)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.stockmarket.svg)](https://www.npmjs.com/package/iobroker.stockmarket)
-[![Dependency Status](https://img.shields.io/david/waoler/iobroker.stockmarket.svg)](https://david-dm.org/waoler/iobroker.stockmarket)
-[![Known Vulnerabilities](https://snyk.io/test/github/waoler/ioBroker.stockmarket/badge.svg)](https://snyk.io/test/github/waoler/ioBroker.stockmarket)
+[![Dependency Status](https://img.shields.io/david/iobroker-community-adapters/iobroker.stockmarket.svg)](https://david-dm.org/waoler/iobroker.stockmarket)
+[![Known Vulnerabilities](https://snyk.io/test/github/iobroker-community-adapters/ioBroker.stockmarket/badge.svg)](https://snyk.io/test/github/waoler/ioBroker.stockmarket)
 
 [![NPM](https://nodei.co/npm/iobroker.stockmarket.png?downloads=true)](https://nodei.co/npm/iobroker.stockmarket/)
 
-**Tests:**: [![Travis-CI](http://img.shields.io/travis/waoler/ioBroker.stockmarket/master.svg)](https://travis-ci.org/waoler/ioBroker.stockmarket)
+**Tests:**: [![Travis-CI](http://img.shields.io/travis/iobroker-community-adapters/ioBroker.stockmarket/master.svg)](https://travis-ci.org/waoler/ioBroker.stockmarket)
 
 ## Stockmarket adapter for ioBroker
 
