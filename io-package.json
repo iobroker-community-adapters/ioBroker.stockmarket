@@ -1,0 +1,81 @@
+{
+	"common": {
+		"name": "stockmarket",
+		"version": "0.0.2",
+		"news": {
+			"0.0.2": {
+				"en": "Fix error handling",
+				"de": "Fehlerbehandlung verbessert"
+			},
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Stockmarket",
+		"titleLang": {
+			"en": "Stockmarket",
+			"de": "Aktienmarkt",
+			"ru": "Фондовый рынок",
+			"pt": "Mercado de ações",
+			"nl": "Beurs",
+			"fr": "Bourse",
+			"it": "Mercato azionario",
+			"es": "Bolsa de Valores",
+			"pl": "Giełda Papierów Wartościowych",
+			"zh-cn": "股票市场"
+		},
+		"desc": {
+			"en": "Integrates the stock market in ioBroker",
+			"de": "Integriert die Börse in ioBroker",
+			"ru": "Интегрирует фондовый рынок в ioBroker",
+			"pt": "Integra o mercado de ações no ioBroker",
+			"nl": "Integreert de aandelenmarkt in ioBroker",
+			"fr": "Intègre le marché boursier dans ioBroker",
+			"it": "Integra il mercato azionario in ioBroker",
+			"es": "Integra el mercado de valores en ioBroker",
+			"pl": "Integruje giełdę w ioBroker",
+			"zh-cn": "在ioBroker中整合股票市场"
+		},
+		"authors": [
+			"waoler <jonashabelmann@gmail.com>"
+		],
+		"keywords": [
+			"stock",
+			"stockmarket",
+			"iobroker"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "stockmarket.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/waoler/ioBroker.stockmarket/master/admin/stockmarket.png",
+		"readme": "https://github.com/waoler/ioBroker.stockmarket/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "schedule",
+        "schedule": "*/15 * * * *",
+		"type": "misc-data",
+		"compact": true,
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"ownStocks": "string",
+		"apiKey": "string"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
