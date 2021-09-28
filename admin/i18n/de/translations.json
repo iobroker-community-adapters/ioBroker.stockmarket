@@ -1,0 +1,9 @@
+{
+    "apikey": "Dein API Key",
+    "apikey_info": "Bitte besorge dir deinen eigenen API Key unter der folgenden Adresse: <a href=\"https://www.alphavantage.co/support/#api-key\">https://www.alphavantage.co/support/#api-key</a>",
+    "apikey_label": "API Key hier eintragen",
+    "ownStocks": "Deine gewünschten Aktien",
+    "ownStocks_info": "Hier die Commands eintragen, die du in der GetAdmin-Software in der Spalte Commands definiert hast. Bitte ohne Leerzeichen. Mehrere Werte mit Komma trennen.<br>Falls du (noch) keine eigenen Commands definiert hast, lässt du das einfach leer.",
+    "ownStocks_label": "Aktiennummer (mit Komma trennen)",
+    "stockmarket adapter settings": "Adaptereinstellungen für stockmarket"
+}

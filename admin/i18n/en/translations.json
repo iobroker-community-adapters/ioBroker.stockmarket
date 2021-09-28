@@ -1,0 +1,9 @@
+{
+    "apikey": "Your API Key",
+    "apikey_info": "Please check <a href=\"https://www.alphavantage.co/support/#api-key\">https://www.alphavantage.co/support/#api-key</a>, to get your own API Key",
+    "apikey_label": "Insert your API Key",
+    "ownStocks": "Your favorite stocks",
+    "ownStocks_info": "Enter your own commands, which you entered in the GetAdmin software in column Command. No spaces please. Separate multiple values with comma.<br>Leave this field empty, if you have not (yet) defined any commands.",
+    "ownStocks_label": "Stockids (comma separated)",
+    "stockmarket adapter settings": "Adapter settings for stockmarket"
+}
