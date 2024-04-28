@@ -20,7 +20,6 @@
 				"zh-cn": "首次出版"
 			}
 		},
-		"title": "Stockmarket",
 		"titleLang": {
 			"en": "Stockmarket",
 			"de": "Aktienmarkt",
@@ -53,14 +52,18 @@
 			"stockmarket",
 			"iobroker"
 		],
-		"license": "MIT",
-		"platform": "Javascript/Node.js",
+		"licenseInformation": {
+			"license": "MIT",
+			"type": "free"
+		  },
+	  	"platform": "Javascript/Node.js",
 		"main": "main.js",
 		"icon": "stockmarket.png",
 		"enabled": true,
 		"extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.stockmarket/master/admin/stockmarket.png",
 		"readme": "https://github.com/iobroker-community-adapters/ioBroker.stockmarket/blob/master/README.md",
 		"loglevel": "info",
+		"tier": 3,
 		"mode": "schedule",
         "schedule": "*/15 * * * *",
 		"type": "misc-data",
@@ -70,7 +73,12 @@
 		"dataSource": "poll",
 		"dependencies": [
 			{
-				"js-controller": ">=1.4.2"
+			  "js-controller": ">=5.0.19"
+			}
+		],
+		"globalDependencies": [
+			{
+			  "admin": ">=6.13.16"
 			}
 		]
 	},

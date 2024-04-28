@@ -26,6 +26,13 @@ Then use find your stock an use the shown SYMBOL for your adapter config.
 You can change the schedule settings if you like (default every 15 minutes).
 
 ## Changelog
+<!--
+    Placeholder for the next version (at the beginning of the line):
+    ### **WORK IN PROGRESS**
+-->
+### **WORK IN PROGRESS**
+* (mcm1957) Adapter requires node.js >= 18 and js-controller >= 5 now
+* (mcm1957) Dependencies have been updated
 
 ### 0.0.2
 * (waoler) fixed error handling
